@@ -459,8 +459,6 @@ SUBSYSTEM_DEF(housing)
 
 	for(var/turf/T in block(locate(minx, miny, minz), locate(maxx, maxy, maxz)))
 		for(var/mob/M in T.contents)
-			if(M == user)
-				continue
 			if(M.client)
 				return TRUE
 	return FALSE
