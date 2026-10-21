@@ -490,5 +490,7 @@
 	icon_state = "bonnet"
 	item_state = "bonnet"
 	detail_tag = "_detail"
+	icon = 'icons/roguetown/clothing/head/bonnet.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head/bonnet.dmi'
 	color = CLOTHING_ROYAL_BLACK
 	detail_color = CLOTHING_ROYAL_RED
