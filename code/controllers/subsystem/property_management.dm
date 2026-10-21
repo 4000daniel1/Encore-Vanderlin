@@ -542,6 +542,13 @@ SUBSYSTEM_DEF(housing)
 	valid_jobs += typesof(/datum/job/advclass/adventurer)
 	valid_jobs += typesof(/datum/job/advclass/combat)
 
+/obj/structure/sign/property_sign/claim/magic_apprentice//For magician apprentices
+	name = "Student's Instancer Crystal"
+
+/obj/structure/sign/property_sign/claim/magic_apprentice/Initialize(mapload)
+	. = ..()
+	valid_jobs += typesof(/datum/job/mageapprentice)
+
 /obj/structure/sign/property_sign/claim/proc/check_job_access(mob/user)
 	if(user.job_type in valid_jobs)
 		return FALSE
