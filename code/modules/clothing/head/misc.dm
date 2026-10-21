@@ -483,3 +483,12 @@
 /obj/item/clothing/head/rosa/six
 	name = "maroon cap"
 	icon_state = "rosahat6"
+
+/obj/item/clothing/head/bonnet
+	name = "bonnet"
+	desc = "A dainty and ladylike bonnet."
+	icon_state = "bonnet"
+	item_state = "bonnet"
+	detail_tag = "_detail"
+	color = CLOTHING_ROYAL_BLACK
+	detail_color = CLOTHING_ROYAL_RED
